@@ -52,19 +52,15 @@ python main.py
 ## 📁 Project Structure
 
 multi-object-tracking/
-      ├── input/input.mp4
-      ├── output/output.mp4
-      ├── src/
-            ├──main.py
-            ├──utils.py
-            └── tracker.py
-      ├── requirements.txt
-      ├── README.md
-      └── report.pdf
-
-
-
----
+├── input/input.mp4
+├── output/output.mp4
+├── src/
+│   ├── main.py
+│   ├── utils.py
+│   └── tracker.py
+├── requirements.txt
+├── README.md
+└── report.pdf
 
 ## 📊 Assumptions
 
