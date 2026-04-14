@@ -1,4 +1,4 @@
-# Multi-Object Detection and Tracking
+![Screenshot 2026-04-15 at 12 08 40 AM](https://github.com/user-attachments/assets/513e3304-ceb2-415d-8731-35311aacbc75)# Multi-Object Detection and Tracking
 
 ## 📌 Overview
 
@@ -85,6 +85,7 @@ multi-object-tracking/
 
 * Use ByteTrack for better tracking
 * Team classification (jersey color)
+
 * Heatmap visualization
 * Speed estimation
 
@@ -92,3 +93,9 @@ multi-object-tracking/
 
 ## 🔗 Video Source
 https://www.pexels.com/video/exciting-soccer-team-warm-up-session-in-stadium-34452654/
+
+## Demo
+
+![Screenshot 2026-04-15 at 12 08 40 AM](https://github.com/user-attachments/assets/9424622d-e6b8-43b8-8d4d-471c9e8f754e)
+
+
