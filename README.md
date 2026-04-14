@@ -1,4 +1,4 @@
-![Screenshot 2026-04-15 at 12 08 40 AM](https://github.com/user-attachments/assets/513e3304-ceb2-415d-8731-35311aacbc75)# Multi-Object Detection and Tracking
+# Multi-Object Detection and Tracking
 
 ## 📌 Overview
 
