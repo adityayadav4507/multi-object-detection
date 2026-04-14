@@ -96,6 +96,8 @@ https://www.pexels.com/video/exciting-soccer-team-warm-up-session-in-stadium-344
 
 ## Demo
 
-![Screenshot 2026-04-15 at 12 08 40 AM](https://github.com/user-attachments/assets/9424622d-e6b8-43b8-8d4d-471c9e8f754e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9424622d-e6b8-43b8-8d4d-471c9e8f754e" width="500"/>
+</p>
 
 
