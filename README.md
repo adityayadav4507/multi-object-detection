@@ -30,13 +30,17 @@ This project implements a computer vision pipeline for detecting and tracking mu
 ### Option 1: Using venv
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 ### Option 2: Using Conda
 
 conda create -n yolo_env python=3.10
+
 conda activate yolo_env
+
 pip install -r requirements.txt
 
 ---
@@ -44,6 +48,7 @@ pip install -r requirements.txt
 ## ▶️ Run the Project
 
 cd src
+
 python main.py
 
 ---
@@ -51,16 +56,19 @@ python main.py
 
 ## 📁 Project Structure
 
+```bash
 multi-object-tracking/
-├── input/input.mp4
-├── output/output.mp4
-├── src/
-│   ├── main.py
-│   ├── utils.py
-│   └── tracker.py
-├── requirements.txt
-├── README.md
-└── report.pdf
+├── input/                # Input video
+├── output/               # Processed output video
+├── src/                  # Core source code
+│   ├── main.py           # Pipeline execution
+│   ├── utils.py          # Visualization utilities
+│   └── tracker.py        # Tracking logic
+├── requirements.txt      # Dependencies
+├── README.md             # Project documentation
+└── report.pdf            # Technical report
+
+```
 
 ## 📊 Assumptions
 
