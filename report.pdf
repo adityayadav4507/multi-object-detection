@@ -1,0 +1,47 @@
+# Technical Report
+
+## 1. Model Selection
+
+For object detection, YOLOv8s was used due to its balance between speed and accuracy. It provides reliable detection of players in dynamic sports scenes.
+
+## 2. Tracking Algorithm
+
+DeepSORT was used for multi-object tracking. It combines motion prediction using Kalman filtering and appearance-based re-identification to assign persistent IDs.
+
+## 3. Why YOLO + DeepSORT
+
+This combination is widely used in real-world applications because YOLO provides fast and accurate detections, while DeepSORT ensures ID consistency across frames.
+
+## 4. ID Consistency
+
+ID consistency is maintained using:
+
+* max_age parameter to retain tracks during occlusion
+* n_init to avoid false positives
+* appearance feature matching
+
+## 5. Challenges Faced
+
+* Occlusion caused ID switching
+* Motion blur reduced detection confidence
+* Similar-looking players confused tracker
+
+## 6. Failure Cases
+
+* Players overlapping for long duration
+* Sudden camera movement
+* Low-resolution frames
+
+## 7. Improvements Implemented
+
+* Confidence filtering (score > 0.5)
+* Frame skipping for stability
+* Trajectory visualization
+* FPS and object count display
+
+## 8. Future Work
+
+* ByteTrack integration
+* Heatmap generation
+* Speed estimation
+* Multi-class tracking
